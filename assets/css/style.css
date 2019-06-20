@@ -8,6 +8,10 @@ body {
   background: url("../images/concrete_seamless.png");
 }
 
+/* .masthead {
+  background-image: url("../images/WesternUSRoadTrip.jpeg");
+} */
+
 * {
   box-sizing: border-box;
 }
@@ -19,6 +23,7 @@ body {
   max-width: 960px;
   margin: 0 auto;
   clear: both;
+  background-image: url("../images/WesternUSRoadTrip.jpeg");
 }
 
 h1,
