@@ -1,17 +1,20 @@
-/* Homework Due 5.29.19 */
+/* Main Portfolio */
 
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("../images/concrete_seamless.png");
+  background-image: url("../images/WesternUSRoadTrip.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url("../images/WesternUSRoadTrip.jpg");
 }
-
-/* .masthead {
-  background-image: url("../images/WesternUSRoadTrip.jpeg");
-} */
-
+ 
 * {
   box-sizing: border-box;
 }
@@ -23,7 +26,7 @@ body {
   max-width: 960px;
   margin: 0 auto;
   clear: both;
-  background-image: url("../images/WesternUSRoadTrip.jpeg");
+  /* background-image: url("../images/WesternUSRoadTrip.jpeg"); */
 }
 
 h1,
@@ -41,7 +44,7 @@ h1,
 h2,
 h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
-  font-weight: 700;
+  font-weight: 750;
   color: #4aaaa5;
 }
 
@@ -55,6 +58,69 @@ h1 {
 h2,
 h3 {
   font-size: 22px;
+  font-weight: 750;
+
+}
+
+#resume {
+  color: #4aaaa5;
+  font-weight: 750;
+
+}
+.resume-background { 
+  background: url(../images/vintage_paper.jpg);
+  background-size: cover;
+  display: inline-block;
+  line-height: 1.4; 
+  padding: 50px 50px 50px 50px;
+  /* width: 400px; */
+  margin: 20px auto;
+}
+
+#contact-info {
+  text-align: center;
+  font-weight: 750;
+
+}
+
+#contact-list {
+  color: #fff;
+  text-align: center;
+  list-style: none;
+}
+
+.padded-multiline { 
+  background: url(../images/041\ Happy\ Acid.png);
+  background-size: cover;
+  line-height: 1.4; 
+  padding: 50px 50px 50px 50px;
+  width: 400px;
+  margin: 20px auto;
+}
+/* .padded-multiline span { 
+  background-color: black;
+  color: #fff; 
+  display: inline;
+  padding: 0.5rem;
+  
+  /* Needs prefixing */
+  /* -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+/* } */
+
+/* Why won't this work? */
+#link {
+  color: blue;
+}
+
+.main-portfolio {
+  float: left;
+  width: 100%;
+  max-width: 960px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
 }
 
 /* header */
@@ -66,8 +132,9 @@ h3 {
   margin: 0 0 30px;
   overflow: auto;
   color: #ffffff;
-  background: #ffffff;
-  border-bottom: 2px solid #cccccc;
+  background-image: url("../images/header-gradient.png");
+  background-color: transparent;
+  /* border-bottom: 2px solid #cccccc; */
 }
 
 #logo {
@@ -81,26 +148,8 @@ h3 {
   color: #ffffff;
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
-}
-
-nav {
-  float: right;
-  margin-top: 25px;
-}
-
-nav a {
-  display: inline-block;
-  padding-left: 15px;
-  margin-left: 15px;
-  line-height: 18px;
-  color: #999;
-  text-decoration: none;
-  border-left: 1px solid #efefef;
-}
-
-nav a:first-child {
-  border-left: 0 none;
+  background: url(../images/041\ Happy\ Acid.png);
+  background-size: cover;
 }
 
 /* footer */
@@ -141,7 +190,7 @@ h3, h2 {
   border: 1px solid #dddddd;
 }
 
-/* portfolio page */
+/* portfolio */
 
 .work {
   position: relative;
@@ -172,7 +221,8 @@ h3, h2 {
   line-height: 30px;
   color: #ffffff;
   text-align: center;
-  background: #4aaaa5;
+  background: url(../images/041\ Happy\ Acid.png);
+  background-size: cover;
   border-bottom: 0;
 }
 
@@ -186,7 +236,7 @@ h3, h2 {
 
 /* contact page */
 
-#contact-form ul {
+/* #contact-form ul {
   margin-bottom: 20px;
 }
 
@@ -222,7 +272,7 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
-}
+} */
 
 @media screen and (max-width: 768px) {
   

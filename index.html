@@ -5,13 +5,18 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>About | Anna Grant</title>
+  <title>Web Profile | Anna Grant</title>
+
+  <!--Link to css-->
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
+  <!--Link to Bootstrap-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+  <!--Link to Bootstrap-->
   <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/sketchy/bootstrap.min.css" rel="stylesheet" integrity="sha384-N8DsABZCqc1XWbg/bAlIDk7AS/yNzT5fcKzg/TwfmTuUqZhGquVmpb5VvfmLcMzp" crossorigin="anonymous">
 
+  <!--Link to Something-->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -19,36 +24,15 @@
 </head>
 
 <body>
-
+  <!-- Header -->
   <header id="masthead">
     <div class="container">
       <a href="index.html" id="logo">Anna Grant</a>
 
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button> 
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
-              </li>
-            </ul>
-          </div>
-        </nav>  
     </div>
   </header>
 
+  <!-- Main-Container -->
   <div id="main-container" class="container">
     <section class="main-section">
       <h1>About Me</h1>
@@ -61,18 +45,79 @@
     
     </section>
     <section id="contact-info">
-      <center><h2><a href="assets/resume/Grant.Anna.resume.2019.pdf" target="_blank">Resume</a></h2></center>
-      <h2>Contact Info</h2>
-      <ul>
+
+      <!-- Resume -->
+      <center><h2><a id="resume" class="resume-background" href="assets/resume/Grant.Anna.resume.2019.pdf" target="_blank">Resume</a></h2></center>
+      
+      <!-- Contact Info -->
+      <h2 id=#contact-info>Contact Info</h2>
+      <ul id="contact-list" class="padded-multiline">
         <li><strong>Phone Number: 1-303-588-5938</strong></li>
-        <li><strong>Email:</strong> <a href="mailto:anban123@msn.com">anban123@msn.com</a></li>
-        <li><strong>Github:</strong> <a href="https://github.com/anban123" target="_blank">anban123</a></li>
-        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/anna-grant-29164229/" target="_blank">Anna Grant</a></li>
+        <li><strong>Email:</strong> <a id="link" href="mailto:anban123@msn.com">anban123@msn.com</a></li>
+        <li><strong>Github:</strong> <a id="link" href="https://github.com/anban123" target="_blank">anban123</a></li>
+        <li><strong>LinkedIn:</strong> <a id="link" href="https://www.linkedin.com/in/anna-grant-29164229/" target="_blank">Anna Grant</a></li>
       </ul>
     </section>
 
+    <!-- Portfolio -->
+    <section class="main-portfolio">
+      <h1>Portfolio</h1>
+
+      <div class="work">
+        <a href="https://anban123.github.io/NotDoneYet/" target="_blank" alt="Word Guess Link"><img src="https://ichef.bbci.co.uk/news/912/cpsprodpb/179AE/production/_103568669_gettyimages-579236076.jpg" alt="Word Guess">
+
+        <h3>Word Guess</h3></a>
+      </div>
+      <div class="work">
+        <a href="https://anban123.github.io/NotDoneYet/" target="_blank" alt="RPG Game"><img src="https://i.ytimg.com/vi/MJ6iSl4jrCM/maxresdefault.jpg" alt="RPG Game">
+
+        <h3>RPG Game</h3></a>
+      </div>
+      <div class="work">
+        <a href="https://anban123.github.io/TriviaGame/" target="_blank" alt="Trivia Game Link"><img src="https://static1.squarespace.com/static/5327b065e4b0616e49dc1ad3/t/55ecdd4fe4b043ba11f03d14/1441586512969/" alt="Trivia Game">
+
+        <h3>Trivia Game</h3></a>
+      </div>
+      <div class="work">
+        <a href="https://anban123.github.io/NotDoneYet/" target="_blank" alt="Rutgers Info Wiget Link"><img src="https://shivjisakina.github.io/Basic-Portfolio/assets/images/technics-q-c-640-480-1.jpg" alt="Rutgers Info Widget">
+
+        <h3>Rutgers Info Widget</h3></a>
+      </div>
+      <div class="work">
+        <a href="https://anban123.github.io/NotDoneYet/" target="_blank" alt="Rock Paper Scissors Link"><img src="https://pxt.azureedge.net/blob/68f66c3ddc3acfc4c53157abf92eace202d46db2/static/courses/csintro/conditionals/rock-paper-scissors-items.png" alt="Rock Paper Scissors">
+
+        <h3>Rock Paper Scissors</h3></a>
+      </div>
+      <div class="work">
+        <a href="https://anban123.github.io/unit-4-game/" target="_blank" alt="Crystal Collector Link"><img src="https://d3d127vhjgkwcw.cloudfront.net/images/articles/2018_03/Woman-holding-hand-full-of-healing-crystals-400.jpg" alt="Crystal Image">
+
+        <h3>Crystal Collector!</h3></a>
+      </div>
+      <div class="work">
+        <a href="https://anban123.github.io/Psychic-Game/" target="_blank" alt="Psychic Game Link"><img src="https://www.unexplained-mysteries.com/forum/uploads/monthly_2018_02/5a8776c74191c_coolcrystalball.jpg.d351abf56893ad452cbe454d69437732.jpg" alt="Psychic Game Image">
+
+        <h3>Psychic Game</h3></a>
+      </div>
+      <div class="work">
+        <a href="https://anban123.github.io/TrainTime/" target="_blank" alt="Train Time Link"><img src="https://static.seattletimes.com/wp-content/uploads/2019/03/03222019_coaststarlight_200400-1020x655.jpg" alt="Train Image">
+
+        <h3>Train Time</h3></a>
+      </div>
+
+      <div class="work">
+        <a href="https://holtgal.github.io/Api-Group-Project/" target="_blank" alt="AHEM Link"><img src="assets/images/AHEM.png" alt="AHEM Mobile Image">
+
+        <h3>AHEM - API Group Project</h3></a>
+      </div>
+      <div class="work">
+        <a href="https://anban123.github.io/liri-node-app/" target="_blank" alt="Liri Link"><img src="https://railsware.com/blog/wp-content/uploads/2018/09/2400%D1%851260-rw-blog-node-js.png" alt="Node.js Image">
+
+        <h3>Liri, node.js App</h3></a>
+      </div>
+
   </div>
 
+  <!-- Footer -->
   <footer>
     <div class="container">
       Copyright &copy; 
